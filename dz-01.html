@@ -16,6 +16,7 @@
 	<form onsubmit="return false" oninput ="o.value = task.value">
 		<div class="UNPUT" align="center">
 			 <input autofocus= type="text" name="task" size="80px" value="What need to do?">
+			 <button> << </button>
 		</div>
 		<div align="center" >
 			<output  name="o" ></output>
@@ -23,11 +24,17 @@
 	</form>
 
 	<div class="LIST" align="center">
-		<select >
-			<option value="volvo">CSS</option>
-			<option value="saab">JavaScript</option>
-			<option value="mercedes">HTML</option>
-		</select>
+		<table style="width:42%" align="center" bgcolor="white">
+		  <tr>
+		    <td align="center" valign="middle"><img src="icons/completed.png"><del>CSS</del> </td>
+		  </tr>
+		    <tr>
+		    <td align="center" valign="middle">JavaScript</td>
+		  </tr>
+		    <td align="center" valign="middle">HTML</td>
+		  </tr>
+ 		</table>
+		
 	</div>
 
 
