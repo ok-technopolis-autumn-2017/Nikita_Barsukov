@@ -8,33 +8,36 @@
 
  </head>
  <body bgcolor="grey">
- 	<p align="center"><font size= 60 face="Arieal">TODOS</font></p>
 
+ 	<div class="LOGO"> 
+ 		<p align="center"><font size= 60 face="Arieal">TODOS</font></p>
+	</div>
 
-
- 		<form onsubmit="return false" oninput ="o.value = task.value">
- 			<div align="center">
- 				 <input autofocus= type="text" name="task" size="80px" value="What need to do?">
- 			</div>
- 			<div align="center" >
- 				<output  name="o" ></output>
- 			</div>
-		</form>
-
-		<div align="center">
-			<p class="left-items">3 items left</p>
-			<div class="items-filters">
-				<input type="radio" name="item-filter" aria-label="All">All
-				<input type="radio" name="item-filter" aria-label="Active">Active
-				<input type="radio" name="item-filter" aria-label="Completed">Completed
-			</div>
-			<p>
-				<button name="clear-all-button">Clear completed</button>
-			</p>
+	<form onsubmit="return false" oninput ="o.value = task.value">
+		<div class="UNPUT" align="center">
+			 <input autofocus= type="text" name="task" size="80px" value="What need to do?">
 		</div>
+		<div align="center" >
+			<output  name="o" ></output>
+		</div>
+	</form>
 
-			
- 
+	<div class="LIST" align="center">
+		<select >
+			<option value="volvo">CSS</option>
+			<option value="saab">JavaScript</option>
+			<option value="mercedes">HTML</option>
+		</select>
+	</div>
 
+
+
+	<div class ="BOTTOM_TABS" align="center">
+		<p class="left-items">3 items left</p>
+		<div class="items-filters">
+			<input type="radio" name="item-filter" aria-label="All">All
+			<input type="radio" name="item-filter" aria-label="Active">Active
+			<input type="radio" name="item-filter" aria-label="Completed">Completed
+		</div>
  </body>
 </html>
